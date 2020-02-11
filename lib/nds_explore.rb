@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   row_index = 0
   while row_index <= 6 do
-  pp my_db[0][:movies][row_index]
+  p directors_database[0][:movies][row_index]
   row_index += 1
   end
 end
