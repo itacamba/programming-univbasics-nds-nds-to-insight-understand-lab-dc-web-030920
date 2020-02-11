@@ -15,8 +15,8 @@ def print_first_directors_movie_titles
     if row_index[:name] == "Stephen Spielberg"
       my_first_director << row_index[0]
     end
-    directors_database[row_index]
     row_index += 1
   end
+  puts my_first_director
 
 end
