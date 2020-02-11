@@ -9,13 +9,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  row_index = 0
-  while row_index < directors_database.length do
-    if row_index[:name] == "Stephen Spielberg"
-      my_first_director.directors_database[row_index].clone
-    end
-    row_index += 1
-  end
-  puts my_first_director
+
+  puts directors_database[:name]
 
 end
