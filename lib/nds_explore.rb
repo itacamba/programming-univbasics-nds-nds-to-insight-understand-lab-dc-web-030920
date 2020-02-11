@@ -10,10 +10,9 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  my_first_director = {}
   while row_index < directors_database.length do
     if row_index[:name] == "Stephen Spielberg"
-      my_first_director << row_index[0]
+      my_first_director.directors_database[row_index].clone
     end
     row_index += 1
   end
